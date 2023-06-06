@@ -1,0 +1,130 @@
+.contactus1
+{
+    width: 1530px !important;
+    height: 100vh;
+}
+
+.main1{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .container1{
+    margin: auto;
+  
+    width: 1100px;
+    height: 650px;
+  
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: -1px 92px 99px -62px rgba(3, 107, 255, 0.27), 0 1px 6px 0 rgba(10, 48, 255, 0.48);
+    background-color: white;
+    border-radius: 25px;
+  }
+  
+  .container1 .imagebig {
+    height: 100%;
+    width: 60%;
+    overflow: hidden;
+    box-shadow: 1px 1px 11px 2px;
+    transition: 0.4s;
+    border-top-left-radius : 25px;
+    border-bottom-left-radius : 25px;
+  
+  }
+  .container1 .imagebig img {
+    width: 100%;
+    height: 100%;
+    transition: 1.4s;
+  }
+  .container1 .imagebig:hover{
+    box-shadow: 0px 0px 0px 0px;
+  
+  }
+  .container1 .imagebig img:hover {
+    transform: scale(1.2, 1.2);
+  
+  }
+  
+  @media (max-width: 600px) {
+    .main1 {
+      width: 1000px;
+      height: 313vh;
+      background-color: hsl(30, 38%, 92%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .container1{
+      width: 90%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      background-color: white;
+    }
+  
+    .container1 .imagebig {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+    .container1 .imagebig img {
+      width: 100%;
+      height: 100%;
+      transition: 1.4s;
+    }
+  }
+.form1{
+  margin: auto;
+  }
+  
+.name1{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+.pass1{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.btnw{
+    font-size: 22px ;
+     background-color: black; 
+     color: white; 
+     padding: 10px 16px; 
+     border-radius: 29px;
+     transition: 0.4s;
+     margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .btnw:hover,
+  .btnw:focus {
+    box-shadow: -1px 92px 99px -62px rgba(3, 107, 255, 0.27), 0 1px 6px 0 rgba(10, 48, 255, 0.48);transform: translateY(-0.25em);
+  background-color: rgb(56, 235, 235);
+  border: solid rgb(56, 235, 235);
+  }
+  
+  .input1[type=text],.input1[type=password]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+ 
+  .message{
+   border-radius: 20px;
+  }

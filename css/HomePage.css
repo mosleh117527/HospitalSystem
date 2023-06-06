@@ -1,0 +1,556 @@
+/* ==================NavBar==================== */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container1 {
+    background-color: rgb(15, 161, 245);
+     
+}
+
+.container-fluid .header .navbar {
+    width: 100%;
+    height: auto;
+
+}
+
+ .container-fluid .header .navbar li a {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-family: serif  !important; 
+    margin: 10px;
+}
+
+.container-fluid .header .navbar li a:hover {
+    color: rgb(200, 191, 198) !important;
+}
+
+.container-fluid .header .navbar button {
+    font-size: 20px;
+    margin: 7px;
+    color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: white;
+}
+
+.container-fluid .header .navbar button:hover {
+    background-color: rgb(9, 115, 176);
+}
+
+/* ==================First Page============= */
+
+.container-fluid .container .row .text {
+    margin-top: 250px;
+}
+
+.container-fluid .container .row .text h1 span {
+    color: rgb(29, 192, 221);
+}
+
+.container-fluid .container .row .text h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/* For Tablet */
+@media(max-width: 768px) {
+    .container-fluid .container .row .text {
+        margin-top: 45px !important;
+    }
+}
+
+/* For Mobile */
+
+@media (max-width: 600px)
+{
+    .container-fluid .container .row .header-img img
+    {
+        width: 91%;
+    }
+}
+
+@media(max-width:425px)
+{
+    .container-fluid .container .row .text h1 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+}
+
+@media(max-width:320px)
+{
+    .container-fluid .container .row .text h1 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .container-fluid .container .row .header-img img
+    {
+        width: 95%;
+    }
+}
+
+/* ====================Second Page ================*/
+
+.section2 .container .text2 h4
+{
+    color: rgb(29, 192, 221);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section2 .container .text2
+{
+    color: rgb(0,101,143);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section2 .container .categories
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 15px;
+}
+
+.section2 .container .categories .services
+{
+    width: 32%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.section2 .container .categories .services h4
+{
+    color: rgb(171,195,137);
+    font-weight: bold;
+}
+
+@media(max-width: 768px)
+{
+    .section2 .container .categories .services h4 {
+        font-size: larger;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .section2 .container .text2 h4 {
+        font-size: larger;
+    }
+    .section2 .container .text2 p
+    {
+        font-size: large;
+    }
+
+    .section2 .container .categories
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .section2 .container .categories .services 
+    {
+        width: 100%;
+    }
+}
+
+/* ================Section 3 (About us)======= */
+
+.section3 .container-fluid .row
+{
+    margin-bottom: 15px;
+}
+.section3 .container-fluid .row .about-text h4
+{
+    color:rgb(29, 192, 221);
+    font-weight: bold;
+}
+
+.section3 .container-fluid .row .about-text h1
+{
+    font-weight: bold;  
+}
+
+.section3 .container-fluid .row .about-text p
+{
+    font-size: larger;
+}
+
+.section3 .container-fluid .row .about-text ul li
+{
+    font-size: medium;
+
+}
+
+@media (max-width: 600px)
+{
+    .section3 .container-fluid .row .about-text p
+{
+    font-size: medium;
+}
+.section3 .container-fluid .row .about-text h1
+{
+    font-weight: bold;  
+    font-size: 28px;
+}
+}
+/* ==========================Section 4============== */
+.section4 .container .row .card .card-body h5
+{
+    color: rgb(29, 192, 221);
+    font-weight: bold;
+    font-size:40px;
+}
+
+.section4 .container .row .card .card-body p
+{
+    color: rgb(215, 179, 112);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section4 .container .row .card img:hover
+{
+    transform: scale(1.1);
+}
+
+@media(max-width: 768px)
+{
+    .section4 .container .row .card
+    {
+        width: 43% !important;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .section4 .container .row .card {
+        width: 90% !important;
+    } 
+}
+/* ==================Section 5 ============== */
+
+.section5 .container .row .dep h4
+{
+    color: rgb(29, 192, 221);
+    font-weight: bold;
+}
+
+.section5 .container .row .dep h4
+{
+    font-weight: bold;
+}
+
+.section5 .container .row .dep .card
+{
+    background:linear-gradient(#4cb8c4 , #3cd3ad)
+}
+
+/* @media(max-width: 768px)
+{
+    .section5 .container .row .dep .card
+    {
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+     
+    .section5 .container .row .dep
+    {
+        margin-bottom: 30px;
+    }
+
+    .section5 .container .row .dep-img img
+    {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px)
+{
+
+} */
+
+
+/*================= section 6 ================= */
+
+.section6 .container-fluid .row .contactus-text h4 {
+    color: rgb(29, 192, 221);
+    font-weight: bold;
+}
+
+.section6 .container-fluid .row .contactus-text .form input  {
+    width: 25%;
+    height: 35px;
+    padding: 10px 20px;
+    border: 1px solid #C3C3C3;
+    border-radius: 30px;
+}
+.section6 .container-fluid .row .contactus-text .form .email  {
+    width: 50%;
+    height: 35px;
+    padding: 10px 20px;
+    border: 1px solid #C3C3C3;
+    border-radius: 30px;
+
+}
+.section6 .container-fluid .row .contactus-text .form .discuss {
+    width: 50%;
+    height: 35px;
+    padding: 10px 20px;
+    border: 1px solid #C3C3C3;
+    border-radius: 30px;
+    
+}
+.section6 .container-fluid .row .contactus-text .form .comments {
+    width: 50%;
+    height: 100px;
+    padding: 10px 20px;
+    border: 1px solid #C3C3C3;
+    border-radius: 30px;
+    
+}
+.section6 .container-fluid .row .contactus-text  .button {
+    box-shadow: 3px 4px 15px #3fb0cea6;
+    padding: 14px 15px 14px 30px;
+    width: 176px;
+    float: left;
+    margin-top: 25px;
+    border-radius: 30px;
+    position: relative;
+    text-align: left;
+    background-color: rgb(118, 181, 239);
+    margin-bottom: 30px;
+    
+}
+/* =====================Footer============ */
+.sixthpage
+{
+    width: 100%;
+    height: auto;
+    background-color: rgb(45, 123, 179);
+}
+
+.sixthpage .value
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Playfair Display", serif;
+}
+
+.sixthpage .aboutmeal
+{
+    width: 50%;
+    height: auto;
+}
+
+.sixthpage .categories
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+
+.sixthpage .value .aboutmeal
+{
+    padding-left: 100px;
+    padding-top: 80px;
+    color: white;
+}
+
+.sixthpage .value .aboutmeal .p-top
+{
+    padding-top: 40px;
+}
+
+.sixthpage .categories .list1 h4
+{
+    padding-top: 80px;
+    color: white;
+}
+
+.sixthpage .categories .list1 ol
+{
+    padding: 8px;
+    color: rgb(172, 172, 172);
+    list-style-type: none;
+}
+
+.sixthpage .categories .list1 ol li
+{
+    padding-top: 10px;
+}
+
+.sixthpage .categories .list2 h4
+{
+    padding-top: 80px;
+    color: white;
+    margin-left: 150px;
+}
+
+.sixthpage .categories .list2 ol
+{
+    margin-left: 150px;
+    padding: 8px;
+    color: rgb(172, 172, 172);
+    list-style-type: none;
+}
+
+.sixthpage .categories .list2 ol li
+{
+    padding-top: 10px;
+}
+
+.sixthpage .categories .list3 h4
+{
+    padding-top: 80px;
+    color: white;
+    margin-left: 80px;
+}
+
+.sixthpage .categories .list3 ol
+{
+    margin-left: 80px;
+    padding: 8px;
+    color: rgb(172, 172, 172);
+    list-style-type: none;
+}
+
+.sixthpage .categories .list3 ol li
+{
+    padding-top: 10px;
+}
+
+.sixthpage .categories .list1 ol li a
+{
+    text-decoration: none;
+    color: rgb(172, 172, 172) ;
+}
+
+.sixthpage .categories .list1 ol li a:hover
+{
+    color: white;
+}
+
+.sixthpage .categories .list3 ol li:hover
+{
+    color: white;
+}
+
+
+.sixthpage .categories .list2 ol li a
+{
+    text-decoration: none;
+    color: rgb(172, 172, 172) ;
+}
+
+.sixthpage .categories .list2 ol li a:hover
+{
+    color: white;
+}
+
+.sixthpage .copyright p
+{
+    width: 100%;
+   text-align: center;
+   color: white;
+   margin-top: 50px;
+   padding-bottom: 50px;
+}
+
+
+/* -----------------Start Sixth Page Media Style----- */
+
+/* For Tablet */
+
+@media(max-width:768px)
+{
+    .sixthpage .value .aboutmeal {
+        padding-left: 25px;
+        padding-top: 80px;
+    }
+
+    .sixthpage .categories .list1 h4 {
+        margin-left: 45px;
+        margin-bottom: 36px;
+    }
+
+    .sixthpage .categories .list1 ol {
+      
+        margin-left: 40px;
+        margin-top: -32px;
+    }
+
+    .sixthpage .categories .list2 h4 {
+        padding-top: 80px;
+        color: white;
+        margin-left: 67px;
+    }
+
+    .sixthpage .categories .list2 ol {
+        margin-left: 63px;
+        padding: 8px;
+        list-style-type: none;
+    }
+
+    .sixthpage .aboutmeal {
+        width: 30%;
+    }
+}
+
+
+/* For Mobile */
+@media(max-width:600px)
+{
+    .sixthpage .value {
+        display: block;
+    }
+
+    .sixthpage .aboutmeal {
+        width: 100%;
+    }
+
+
+    .sixthpage .categories .list1 h4 {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .sixthpage .categories .list1 ol {
+        margin-left: 0px;
+        font-size: 22px;
+    }
+
+    .sixthpage .categories .list2 h4 {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .sixthpage .categories .list2 ol {
+        margin-left: 0px;
+        font-size: 22px;
+    }
+
+    .sixthpage .categories .list3 h4 {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .sixthpage .categories .list3 ol {
+        margin-left: 0px;
+        font-size: 22px;
+    }
+
+    .sixthpage .categories {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+}
